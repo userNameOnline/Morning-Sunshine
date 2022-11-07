@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/pics/background-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#main {
+    height: 100vh;
+    text-align: center;
+    font-family: 'Fasthand', cursive;
+    font-size: 25px;
+    background: rgba(0, 0, 0, .5);
+}
+
+#logo {
+    border-radius: 100px;
+}
+
+#main div h1 {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#nav a {
+    color: white;
+
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+}
+
+#menu {
+    text-align: center;
+    padding: 50px;
+    background: rgb(18, 12, 44);
+    color: white;
+    font-family: 'Fasthand', cursive;
+    font-size: 25px;
+}
+
+#menu-cont {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#about {
+    background: rgba(0, 0, 0, .5);
+    padding: 100px;
+    color: white;
+    font-family: 'Fasthand', cursive;
+    font-size: 20px;
+}
+
+footer {
+    background: rgba(0, 0, 0, .8);
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.social {
+    height: 50px;
+    width: 50px;
+}
+
+.tag {
+    text-align: center;
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
