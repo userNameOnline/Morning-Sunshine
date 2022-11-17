@@ -4,7 +4,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(/pics/background-1.jpg);
+    background-image: url(pics/background-1.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
