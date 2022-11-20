@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    alert('jquery on')
 
     let textNum = 0;
     setInterval(function() {
@@ -24,19 +25,20 @@ $(document).ready(function() {
 
     let backgroundNum = 0;
     setInterval(function() {
-        switch (backgroundNum) {
+        switch(backgroundNum) {
             case 0:
                 $('body').css('background-image', 'url('pics/background-2.jpg');
                 backgroundNum = 1;
                 break;
-                case 1:
-                    $('body').css('background-image', 'url('pics/background-3.jpg');
-                    backgroundNum = 2;
-                    break;
-                    case 2:
-                        $('body').css('background-image', 'url('pics/background-1.jpg');
-                        backgroundNum = 0;
-                        break;
-        }
+            case 1:
+                $('body').css('background-image', 'url('pics/background-3.jpg');
+                backgroundNum = 2;
+                break;
+            case 2:
+                $('body').css('background-image', 'url('pics/background-1.jpg');
+                backgroundNum = 0;
+                break;
+         }
     }, 2000)
+    
 })
