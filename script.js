@@ -22,15 +22,15 @@ $(document).ready(function() {
     setInterval(function() {
         switch(backgroundnum) {
             case 0:
-                $(body).css('background-image', 'url(pics/background-2.jpg)')
+                $('body').css('background-image', 'url(pics/background-2.jpg)')
                 backgroundnum = 1;
                 break;
             case 1:
-                $(body).css('background-image', 'url(pics/background-3.jpg)')
+                $('body').css('background-image', 'url(pics/background-3.jpg)')
                 backgroundnum = 2;
                 break;
             case 2:
-                $(body).css('background-image', 'url(pics/background-1.jpg)')
+                $('body').css('background-image', 'url(pics/background-1.jpg)')
                 backgroundnum = 0;
                 break;
         }
