@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    alert('jquery on')
 
     let textNum = 0;
     setInterval(function() {
