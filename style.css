@@ -30,6 +30,7 @@ body {
     position: relative;
     width: 70%;
     margin: 0 auto;
+    color: white;
 }
 
 nav {
@@ -52,6 +53,7 @@ nav a {
     background: rgb(18, 12, 44);
     color: white;
     font-family: 'Fasthand', cursive;
+    padding: 5px;
 }
 
 #menu-cont {
@@ -71,11 +73,18 @@ footer {
     background: rgba(0, 0, 0, .8);
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    justify-content: space-around;
 }
 
-.social {
-    height: 50px;
-    width: 50px;
+footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer h2 {
+    margin: 0;
 }
 
 .tag {
@@ -111,5 +120,6 @@ footer {
 
     footer img {
         width: 100px;
+        height: 100px;
     }
 }
