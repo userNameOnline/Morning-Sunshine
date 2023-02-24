@@ -92,6 +92,11 @@ footer {
         background-size: 100vw 100vh;
     }
 
+    #main div h1 {
+        color: white;
+        height: 200px;
+    }
+
     #logo {
         height: 100px;
     }
