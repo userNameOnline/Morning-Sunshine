@@ -9,9 +9,9 @@ body {
     background-attachment: fixed;
 }
 
+/* ---------------- */
 
 #main {
-    height: 100vh;
     text-align: center;
     font-family: 'Fasthand', cursive;
     font-size: 25px;
@@ -22,20 +22,24 @@ body {
     border-radius: 100px;
 }
 
+#main div {
+    padding: 100px 0px;
+}
+
 #main div h1 {
     position: relative;
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
 }
 
-#nav {
+nav {
     display: flex;
     justify-content: space-evenly;
+    background-color: rgb(18, 12, 44);
 }
 
-#nav a {
+nav a {
     color: white;
-
 }
 
 #links {
@@ -45,11 +49,9 @@ body {
 
 #menu {
     text-align: center;
-    padding: 50px;
     background: rgb(18, 12, 44);
     color: white;
     font-family: 'Fasthand', cursive;
-    font-size: 25px;
 }
 
 #menu-cont {
@@ -85,7 +87,7 @@ footer {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 500px) {
     body {
         background-size: 100vw 100vh;
     }
@@ -93,29 +95,16 @@ footer {
     #logo {
         height: 100px;
     }
-
-    #text {
-        font-size: 28px;
-    }
     
-    #nav a {
-        font-size: 22px;
-    }
-
     #menu {
-        font-size: 12px;
         padding: 20px;
     }
 
     #about {
-        font-size: 12px;
         padding: 20px;
-    }
-
-    footer {
-        font-size: 12px;
     }
 
     footer img {
         width: 100px;
     }
+}
